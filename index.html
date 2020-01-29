@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Modelo SendBird</title>
-
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
     <script src="node_modules/moment/min/moment-with-locales.min.js"></script>
     <script src="node_modules/sendbird/SendBird.min.js"></script>
     <script src="start.js" ></script>
 </head>
 <body>
     <h1>Modelo SendBird</h1>
+    <textarea class="form-control message-input" id="mensagemEnvio" onkeydown="campoEnvioMensagemkeydown(event)" name="message" placeholder="Insira sua mensagem"></textarea>
+    <div id="divMensagens">
+
+    </div>
+    
 </body>
 </html>
