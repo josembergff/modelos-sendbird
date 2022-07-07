@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "http-server": "^0.12.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "sendbird": "^3.0.117"
   }
 }
